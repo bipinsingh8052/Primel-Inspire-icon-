@@ -1,0 +1,287 @@
+#navicon >img{
+    height: 40px;
+    width: auto;
+    border-radius: 50%;
+    background-color: yellow !important;
+}
+#navicon>a{
+    font-size: px;
+}
+#nav{
+    background-color: yellow;
+}
+#navitem>li:hover{
+    background-color: thistle;
+    border-radius: 20px;
+}
+#searchnav>input{
+    border: none;
+    outline: none;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+#searchnav>button{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: violet;
+    color: black;
+}
+#searchnav>button:hover{
+    background-color: rgb(208, 99, 26);
+}
+#banner{
+    min-height: 400px;
+    max-height: 1000px;
+    border: 0.5px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+#bannerfirst{
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#bannerfirst>.firstheading{
+    font-size: 23px;
+}
+#bannerfirst>h1{
+    font-size: 45px;
+    color: whitesmoke;
+}
+#bannerfirst>.secondheading{
+    font-size: 17px;
+}
+#bannerfirst>.threeheading{
+    font-size: 20px;
+}
+#bannerfirst>.threeheading>i{
+    color: goldenrod;
+}
+#bannerfirst>a{
+    font-size: 18px;
+
+}
+#bannersecond{
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#bannersecond>img{
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 20px;
+}
+
+/* sider */
+
+#sider{
+    min-height: 200px;
+    max-height: 600px;
+    border-bottom: 1px solid rgb(189, 170, 170);
+    border-top: 1px solid rgb(189, 170, 170);
+    background: linear-gradient(135deg,rgb(43, 30, 30),rgb(80, 46, 46));
+    color: white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#siderfirst ,#sidersecond,#siderthree{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+#siderfirst>.icon ,#sidersecond>.icon,#siderthree>.icon{
+    min-height: 45px;
+    max-height: 80px;
+    min-width: 45px;
+    max-width: 80px;
+    border: 2px solid rgb(25, 88, 25);
+    border-radius: 50%;
+    display: flex;
+    background-color: rgb(55, 29, 29);
+    justify-content: center;
+    align-items: center;
+}
+#siderfirst>.icon>i,#sidersecond>.icon>i,#siderthree>.icon>i{
+    color: rgb(25, 88, 25);
+    font-size: 28px;
+}
+/* sider */
+
+/* main course */
+
+#main_course{
+    min-height: 300px;
+    display: flex;
+    border-bottom: 1px solid rgb(123, 67, 67);
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    background: linear-gradient(135deg,rgb(43, 30, 30),rgb(80, 46, 46));
+    color: white;
+
+}
+#main_course>#main_course1{
+    min-height: 200px;
+    max-height: 400px;
+}
+#main_course>#main_course1>h5{
+    font-size: 22px;
+}
+#main_course>#main_course1>p{
+    font-size: 15px;
+}
+
+/* main course */
+
+/* front page */
+#front_page{
+    min-height: 150px; 
+    /* border: 2px solid black; */
+    background: linear-gradient(135deg,rgb(43, 30, 30),rgb(80, 46, 46));
+    color: white;
+}
+#Front_page1{
+    min-height: 150px;
+    max-height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* border: 2px solid black; */
+    text-align: center !important;
+    
+}
+#Front_page2{
+    min-height: 450px;
+    max-height: 1600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg,rgb(43, 30, 30),rgb(80, 46, 46));
+    color: white;
+    /* border: none;
+    outline: none; */
+}
+#innerfront,#innerfront2,#innerfront3,#innerfront4{
+    background: linear-gradient(135deg,rgb(65, 29, 147),rgb(80, 46, 46));
+    color: white;
+   border-top: 0.5px solid  rgb(190, 160, 160);
+   border-left: 0.5px solid  rgb(190, 160, 160);
+   border-right:0.5px solid  rgb(190, 160, 160);
+}
+/* fronr page */
+
+/* sliderbar */
+#sliderbar{
+    min-height: 500px;
+    max-height: 1600px;
+    background: linear-gradient(135deg,rgb(43, 30, 30),rgb(80, 46, 46));
+    color: white;
+}
+#sliderbar>#sliderbar_img>.img{
+    height: 400px;
+    margin-top: 30px;
+}
+#sliderbar>#sliderbar_img>.img>img{
+    height: 100%;
+    border-radius: 10px;
+}
+#sliderbar>#sliderbar_text{
+    margin-top: 50px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+#sliderbar>#sliderbar_text>.text>h5{
+    font-size: 26px;
+}
+#sliderbar>#sliderbar_text>.text>.normal{
+    font-size: 13px;
+}
+/* #sliderbar>#sliderbar_text>.text{
+    
+} */
+#accordionFlushExample{
+    background-color: yellowgreen !important;
+}
+
+/* sliderbar */
+
+/* footer */
+#footer{
+    min-height: 300px;
+    max-height: 1200px;
+    border-top: 0.5px solid rgb(155, 130, 130);
+    border-bottom: 0.5px solid rgb(155, 130, 130) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(135deg,rgb(48, 31, 31),rgb(30, 21, 21));
+}
+
+
+#footer1,#footer2,#footer3,#footer4,#footer5{
+    height: 180px;
+}
+#footer1>.footer_icon>h5{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: start;
+}
+#footer1>.footer_icon>a{
+    text-decoration: none;
+    color: white;
+}
+#footer1>.footer_icon>p{
+    color: rgb(154, 118, 118);
+}
+#footer2,#footer3,#footer4,#footer5>h5{
+    text-align: center;
+    color: white;
+}
+.footer_icon>h5>img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background: linear-gradient(145deg,rgb(25, 196, 116),rgb(74, 15, 156));
+    /* background-color: white; */
+}
+
+#footer_icon{
+    background-color: yellowgreen;
+}
+.unorderlist{
+    list-style-type: none;
+}
+.unorderlist>li>a{
+    text-decoration: none;
+    color: rgb(154, 118, 118);
+}
+#mainfooter{
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border-bottom: 0.5px solid rgb(155, 130, 130) ;
+
+}
+#mainfooter>p{
+    font-size: 22px;
+    background-color: black;
+    color: white;
+}
+/* footer */

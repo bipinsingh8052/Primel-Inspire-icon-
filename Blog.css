@@ -1,0 +1,176 @@
+#navicon >img{
+    height: 40px;
+    width: auto;
+    border-radius: 50%;
+    background-color: yellow !important;
+}
+#navicon>a{
+    font-size: px;
+}
+#nav{
+    background-color: yellow;
+}
+#navitem>li:hover{
+    background-color: thistle;
+    border-radius: 20px;
+}
+#searchnav>input{
+    border: none;
+    outline: none;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+#searchnav>button{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: violet;
+    color: black;
+}
+#searchnav>button:hover{
+    background-color: rgb(208, 99, 26);
+}
+#banner{
+    min-height: 400px;
+    max-height: 1000px;
+    border: 0.5px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+#bannerfirst{
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#bannerfirst>.firstheading{
+    font-size: 23px;
+}
+#bannerfirst>h1{
+    font-size: 45px;
+    color: whitesmoke;
+}
+#bannerfirst>.secondheading{
+    font-size: 17px;
+}
+#bannerfirst>.threeheading{
+    font-size: 20px;
+}
+#bannerfirst>.threeheading>i{
+    color: goldenrod;
+}
+#bannerfirst>a{
+    font-size: 18px;
+
+}
+#bannersecond{
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#bannersecond>img{
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 20px;
+}
+
+#bannerfirst>.bannerinputbox>input{
+    border: none;
+    outline: none;
+    height: 50px;
+    width: 400px;
+    padding-left: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+#bannerfirst>.bannerinputbox>button{
+    background:linear-gradient(135deg,rgb(16, 24, 108),yellowgreen);
+    color: white;
+    height: 55px;
+    font-size: 27px;
+    width: 70px;
+    margin-bottom: 5px;
+    border: none;
+    outline: none;
+}
+#bannerfirst>.bannerinputbox>button:hover{
+    background: linear-gradient(135deg,rgb(87, 186, 34),rgb(8, 49, 31));
+}
+/* banner */
+
+
+
+/* footer */
+#footer{
+    min-height: 300px;
+    max-height: 1200px;
+    border-top: 0.5px solid rgb(155, 130, 130);
+    border-bottom: 0.5px solid rgb(155, 130, 130) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(135deg,rgb(48, 31, 31),rgb(30, 21, 21));
+}
+
+
+#footer1,#footer2,#footer3,#footer4,#footer5{
+    height: 180px;
+}
+#footer1>.footer_icon>h5{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: start;
+}
+#footer1>.footer_icon>a{
+    text-decoration: none;
+    color: white;
+}
+#footer1>.footer_icon>p{
+    color: rgb(154, 118, 118);
+}
+#footer2,#footer3,#footer4,#footer5>h5{
+    text-align: center;
+    color: white;
+}
+.footer_icon>h5>img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background: linear-gradient(145deg,rgb(25, 196, 116),rgb(74, 15, 156));
+    /* background-color: white; */
+}
+
+#footer_icon{
+    background-color: yellowgreen;
+}
+.unorderlist{
+    list-style-type: none;
+}
+.unorderlist>li>a{
+    text-decoration: none;
+    color: rgb(154, 118, 118);
+}
+#mainfooter{
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border-bottom: 0.5px solid rgb(155, 130, 130) ;
+
+}
+#mainfooter>p{
+    font-size: 22px;
+    background-color: black;
+    color: white;
+}
+/* footer */
